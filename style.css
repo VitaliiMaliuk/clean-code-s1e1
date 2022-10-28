@@ -34,13 +34,13 @@
   margin: 0 auto 0;
 }
 
-.task {
-    width: 56%;
-    display: inline-block;
-    flex-grow: 1
+.add-task__input {
+  width: 56%;
+  display: inline-block;
+  flex-grow: 1;
 }
 
-.task-row-wrapper {
+.add-task__wrapper {
     display: flex;
 }
 
@@ -49,8 +49,9 @@ ul {
     padding: 0px;
 }
 
-li, h3 {
-    list-style:none;
+li,
+.section__title {
+  list-style:none;
 }
 
 input,button{
