@@ -18,13 +18,16 @@
 }
 
 @media (max-width:768px) {
-.header { text-align: center;
+
+.header { 
+  text-align: center;
 }
+
 }
-.task__form {
-    display: block;
-    width: 500px;
-    margin: 0 auto 0;
+.main {
+  display: block;
+  width: 500px;
+  margin: 0 auto 0;
 }
 .task {
     width: 56%;
