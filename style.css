@@ -1,24 +1,24 @@
 /* Basic Style */
 .all-page {
-    background-color: #f8f8f8;
-    color: #333;
-    font-family: Lato, sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+  font-family: Lato, sans-serif;
 }
 .header {
-    width: 500px;
-    margin: 0 auto;
-    display: block;
-    text-align: right;
+  width: 500px;
+  margin: 0 auto;
+  display: block;
+  text-align: right;
 }
 .header__image {
-    width: 100%;
+  width: 100%;
 }
-.matrix__link {
-    font-family: fantasy, cursive;
+.header__link {
+  font-family: "Fantasy", cursive;
 }
 
 @media (max-width:768px) {
-.matrix { text-align: center;
+.header { text-align: center;
 }
 }
 .task__form {
